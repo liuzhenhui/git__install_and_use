@@ -1,0 +1,29 @@
+install 
+
+www.baidu.com   search git_
+
+download git 
+
+$ sudo apt-get install git 
+
+
+1: make an git project 
+
+ 1) cd your project 
+ 2) git config --global user.name " aaaaa "
+    git config --global user.email "1231@qq.com"
+    git init 
+    
+    ** move your project in this path 
+    git add 1.py  (git add . )
+    git commit -m "the first change"
+
+2:update to github 
+    1) in your Repository
+    2) check new
+    3) input repository name  and some description then check creat repository
+    4)  cd your project and run 
+	git remote add origin https://github.com/liuzhenhui/git__install_and_use.git
+	(in the web  this shell will be given)
+	git push -u origin master
+    5) ok
